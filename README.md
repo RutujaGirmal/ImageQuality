@@ -15,6 +15,8 @@ func_imageResizing.py / image_resize.py - Resize/ decimate image (impacts the re
 
 geometric_transformation.py - apply the transformation matrix to apply scaling, rotation, translation and other imaging parameters to an image.
 
+imageHeight.py - Image Height is looked up with extreme importance to evaluate IQ metrics like MTF, Lenshading, Distortion, LCA and so on. These attributes are measured at different image heights to record the performance/ measurements of any given Camera System.
+
 sobel.py - Apply Sobel. Prewitt and Laplacian operators on an image.
 
 stack_image.py - stack images based on an input from user.
